@@ -60,6 +60,7 @@
     border: 1px solid #fda745;
     display: flex;
     flex-direction: column;
+   
  }
 
  .image-wrapper .image-containerC{
@@ -75,7 +76,7 @@
     margin-bottom: 5px;
  }
 
- .image-wrapper .image-containerA #hide-btn {
+ .image-wrapper .image-containerA #hide-btnA {
     margin-left: 10px;
     margin-right: 10px;
     background: #6276eb;
@@ -86,11 +87,11 @@
     transition: color 0.3s ease; 
  }
 
- .image-wrapper .image-containerA #hide-btn:hover{
+ .image-wrapper .image-containerA #hide-btnA:hover{
     background: #e4110a;
  }
 
- .image-wrapper .image-containerB #hide-btn {
+ .image-wrapper .image-containerB #hide-btnB {
     margin-left: 10px;
     margin-right: 10px;
     background: #6276eb;
@@ -101,11 +102,11 @@
     transition: color 0.3s ease; 
  }
 
- .image-wrapper .image-containerB #hide-btn:hover{
+ .image-wrapper .image-containerB #hide-btnB:hover{
     background: #e4110a;
  }
  
- .image-wrapper .image-containerC #hide-btn {
+ .image-wrapper .image-containerC #hide-btnC {
     margin-left: 10px;
     margin-right: 10px;
     background: #6276eb;
@@ -116,7 +117,7 @@
     transition: color 0.3s ease; 
  }
 
- .image-wrapper .image-containerC #hide-btn:hover{
+ .image-wrapper .image-containerC #hide-btnC:hover{
     background: #e4110a;
  }
 
@@ -127,7 +128,7 @@
     margin-bottom: 20px;
  }
 
- .button-container .unhide-btn {
+ .button-container .unhide-btnA {
     width: 130px;
     margin-left: 30px;
     height: 40px;
@@ -137,13 +138,41 @@
     color: color 0.3 ease; 
  }
 
- .button-container .unhide-btn:hover{
+ .button-container .unhide-btnA:hover{
     color: #fff;
     background: #6276eb;
  }
 
 
+.button-container .unhide-btnB {
+    width: 130px;
+    margin-left: 30px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #fda745; 
+    cursor: pointer;
+    color: color 0.3 ease; 
+ }
 
+ .button-container .unhide-btnB:hover{
+    color: #fff;
+    background: #6276eb;
+ }
+
+ .button-container .unhide-btnC {
+    width: 130px;
+    margin-left: 30px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #fda745; 
+    cursor: pointer;
+    color: color 0.3 ease; 
+ }
+
+ .button-container .unhide-btnC:hover{
+    color: #fff;
+    background: #6276eb;
+ }
 
 
 

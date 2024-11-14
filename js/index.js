@@ -1,28 +1,30 @@
+const containerA = document.querySelector('image-containerA');
+const containerB = document.querySelector('.image-containerB');
+const containerC = document.querySelector('.image-containerC');
+
+
+
 function showA(){
-    document.getElementsById("image-containerA").style.visibility = 'visible';
+    containerA.style.visibility = 'visible';
 }
 
 function showB() {
-  document.getElementsByClassName("image-containerB").style.visibility = 'visible';
+ containerB.style.visibility = 'visible';
 }
 
 function showC() {
-  document.getElementsByClassName("image-containerC").style.visibility =
-    'visible';
+  containerC.style.visibility = 'visible';
 }
 
 function hideA() {
-  document.getElementsByClassName("image-containerA").style.visibility =
-    'hidden';
+ containerA.style.visibility= 'hidden';
 }
 
 function hideB() {
-  document.getElementsByClassName("image-containerB").style.visibility =
-    'hidden';
+  containerB.style.visibility ='hidden';
 }
 
 function hideC() {
-  document.getElementsByClassName("image-containerC").style.visibility =
-    'hidden';
+  containerC.style.visibility = 'hidden';
 }
 
