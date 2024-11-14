@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interactive ABC Site </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="/js/index.js" defer></script>
 </head>
 <body>
-    
+    <div class="container-main">
+      <div class="header-container">
+     <p> Welcome to the Interactive ABCs of CSS Technology learning Website</p>
+      </div>
+      <div class="prompt">
+      <p>Click on buttons to reveal and learn the CSS technology 
+        features of corresponding letters 
+      </p>
+      </div>
+   
+    <div class="image-wrapper">
+    <div class="image-containerA"> 
+     <img src="./images/css-letter-a.png" id="letter-a"> 
+    <button id="hide-btn"  onclick="hideA()"> Hide Result </button>
+    </div>
+     <div class="image-containerB">
+        <img src="./images/css-letter-b.png" id="letter-b">
+        <button id="hide-btn" onclick="hideB()">Hide Result</button>
+     </div>
+      <div class="image-containerC">
+        <img src="./images/css-letter-c.png" id="letter-c">
+        <button id = "hide-btn" onclick="hideC()">Hide Result</button>
+     </div>
+     </div>
+     <div class="button-container">
+     <button  class="unhide-btn" onclick="showA()"> A </button>
+     <button class="unhide-btn" onclick="showB()"> B </button>
+     <button class="unhide-btn" onclick="showC()"> C </button>
+
+   </div>
+
 </body>
 </html>
