@@ -1,11 +1,10 @@
-const containerA = document.querySelector('image-containerA');
-const containerB = document.querySelector('.image-containerB');
-const containerC = document.querySelector('.image-containerC');
-
+const containerA = document.getElementById('image-containerA');
+const containerB = document.getElementById('image-containerB');
+const containerC = document.getElementById('image-containerC');
 
 
 function showA(){
-    containerA.style.visibility = 'visible';
+containerA.style.visibility = "visible";
 }
 
 function showB() {
@@ -17,14 +16,14 @@ function showC() {
 }
 
 function hideA() {
- containerA.style.visibility= 'hidden';
+  containerA.style.visibility = "hidden";
 }
 
 function hideB() {
-  containerB.style.visibility ='hidden';
+  containerB.style.visibility = "hidden";
 }
 
 function hideC() {
-  containerC.style.visibility = 'hidden';
+  containerC.style.visibility = "hidden";
 }
 

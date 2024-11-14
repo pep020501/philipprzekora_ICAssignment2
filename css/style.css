@@ -50,20 +50,20 @@
 
  }
 
- .image-wrapper .image-containerA{
+ .image-wrapper #image-containerA{
     border: 1px solid #fda745;
     display: flex;
     flex-direction: column;
  }
 
- .image-wrapper .image-containerB{
+ .image-wrapper #image-containerB{
     border: 1px solid #fda745;
     display: flex;
     flex-direction: column;
    
  }
 
- .image-wrapper .image-containerC{
+ .image-wrapper #image-containerC{
     border: 1px solid #fda745;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@
     margin-bottom: 5px;
  }
 
- .image-wrapper .image-containerA #hide-btnA {
+ .image-wrapper #image-containerA #hide-btnA {
     margin-left: 10px;
     margin-right: 10px;
     background: #6276eb;
@@ -87,11 +87,11 @@
     transition: color 0.3s ease; 
  }
 
- .image-wrapper .image-containerA #hide-btnA:hover{
+ .image-wrapper #image-containerA #hide-btnA:hover{
     background: #e4110a;
  }
 
- .image-wrapper .image-containerB #hide-btnB {
+ .image-wrapper #image-containerB #hide-btnB {
     margin-left: 10px;
     margin-right: 10px;
     background: #6276eb;
@@ -102,11 +102,11 @@
     transition: color 0.3s ease; 
  }
 
- .image-wrapper .image-containerB #hide-btnB:hover{
+ .image-wrapper #image-containerB #hide-btnB:hover{
     background: #e4110a;
  }
  
- .image-wrapper .image-containerC #hide-btnC {
+ .image-wrapper #image-containerC #hide-btnC {
     margin-left: 10px;
     margin-right: 10px;
     background: #6276eb;
@@ -117,7 +117,7 @@
     transition: color 0.3s ease; 
  }
 
- .image-wrapper .image-containerC #hide-btnC:hover{
+ .image-wrapper #image-containerC #hide-btnC:hover{
     background: #e4110a;
  }
 
